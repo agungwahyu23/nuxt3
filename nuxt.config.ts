@@ -16,11 +16,9 @@ export default {
     
     //TAMBAHKAN CODE INI UNTUK MENAMBAHKAN EKSTERNAL JAVASCRIPT
     script: [
-      { src: "/js/core/popper.min.js" },
-      { src: "/js/core/bootstrap.min.js" },
-      { src: "/js/plugins/perfect-scrollbar.min.js" },
-      { src: "/js/plugins/smooth-scrollbar.min.js" },
-      { src: "/js/plugins/chartjs.min.js" }
+      { src: '/js/jquery.min.js'},
+      { src: '/js/bootstrap.bundle.min.js'},
+      { src: '/js/adminlte.min.js'}
     ]
   },
   /*
@@ -33,10 +31,9 @@ export default {
   
   //DAN LOAD FILE CSS DI DALAM ATTRIBUTE INI
   css: [
-    '@/assets/css/argon-dashboard.css',
+    'bootstrap/dist/css/bootstrap.min.css',
     '@fortawesome/fontawesome-free/css/all.min.css',
-    '@/assets/css/nucleo-icons.css',
-    '@/assets/css/nucleo-svg.css'
+    'admin-lte/dist/css/adminlte.min.css',
   ],
   /*
   ** Plugins to load before mounting the App

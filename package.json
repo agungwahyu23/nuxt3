@@ -12,10 +12,13 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
     "admin-lte": "^4.0.0-rc3",
-    "bootstrap": "^5.3.7",
+    "bootstrap": "4.6",
     "jquery": "^3.7.1",
     "nuxt": "^3.18.1",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.32"
   }
 }
