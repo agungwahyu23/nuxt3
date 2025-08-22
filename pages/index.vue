@@ -1,12 +1,11 @@
-<script setup lang="ts">
-definePageMeta({ layouts: 'default' })
-const pageTitle = useState('pageTitle')
-pageTitle.value = 'Dashboard'
+<script setup>
+    definePageMeta({
+        layout: "default"
+    })
 </script>
 
 <template>
-  <!-- Contoh komponen AdminLTE: Small Box -->
-  <div class="row">
+    <div class="row">
     <div class="col-lg-3 col-6">
       <div class="small-box bg-info">
         <div class="inner">

@@ -7,7 +7,8 @@
                 aria-hidden="true" id="iconSidenav"></i>
             <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html "
                 target="_blank">
-                <img src="~/assets/img/logo-ct-dark.png" width="26px" height="26px" class="navbar-brand-img h-100" alt="main_logo">
+                <img src="~/assets/img/logo-ct-dark.png" width="26px" height="26px" class="navbar-brand-img h-100"
+                    alt="main_logo">
                 <span class="ms-1 font-weight-bold">Creative Tim</span>
             </a>
         </div>
@@ -32,7 +33,7 @@
                         <span class="nav-link-text ms-1">Data</span>
                     </NuxtLink>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link " href="../pages/sign-in.html">
                         <div
@@ -55,11 +56,3 @@
         </div>
     </aside>
 </template>
-
-<script>
-import { NuxtLink } from '#components';
-
-    export default {
-
-    }
-</script>

@@ -16,10 +16,6 @@ export default {
     
     //TAMBAHKAN CODE INI UNTUK MENAMBAHKAN EKSTERNAL JAVASCRIPT
     script: [
-      // { src: "/vendor/jquery/jquery.min.js" },
-      // { src: "/vendor/bootstrap/js/bootstrap.bundle.min.js" },
-      // { src: "/vendor/jquery-easing/jquery.easing.min.js" },
-      // { src: "/js/sb-admin-2.min.js" }
       { src: "/js/core/popper.min.js" },
       { src: "/js/core/bootstrap.min.js" },
       { src: "/js/plugins/perfect-scrollbar.min.js" },
@@ -37,8 +33,6 @@ export default {
   
   //DAN LOAD FILE CSS DI DALAM ATTRIBUTE INI
   css: [
-    // '@/assets/vendor/fontawesome-free/css/all.min.css',
-    // '@/assets/css/sb-admin-2.min.css'
     '@/assets/css/argon-dashboard.css',
     '@fortawesome/fontawesome-free/css/all.min.css',
     '@/assets/css/nucleo-icons.css',
