@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { NuxtLink } from '#components';
+
+</script>
+
 <template>
     <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
         <div class="sidebar-brand">
@@ -11,13 +16,13 @@
                 <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="navigation"
                     aria-label="Main navigation" data-accordion="false" id="navigation">
                     <li class="nav-item menu-open">
-                        <a href="#" class="nav-link active">
+                        <NuxtLink to="/" class="nav-link active">
                             <i class="nav-icon fa fa-dashboard"></i>
                             <p>
                                 Dashboard
                                 <i class="nav-arrow bi bi-chevron-right"></i>
                             </p>
-                        </a>
+                        </NuxtLink>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
@@ -26,6 +31,14 @@
                                 <i class="nav-arrow bi bi-chevron-right"></i>
                             </p>
                         </a>
+                    </li>
+                    <li class="nav-item">
+                        <NuxtLink to="satker" class="nav-link">
+                            <i class="nav-icon fa fa-table"></i>
+                            <p>Satker
+                                <i class="nav-arrow bi bi-chevron-right"></i>
+                            </p>
+                        </NuxtLink>
                     </li>
                     <li class="nav-header">MULTI LEVEL EXAMPLE</li>
                     <li class="nav-item">
